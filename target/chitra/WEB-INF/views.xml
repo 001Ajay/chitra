@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="main.definition" template="/WEB-INF/views/layouts/layout.jsp">
+		<put-attribute name="title" value="*Chitra*" />
+		<put-attribute name="header" value="/WEB-INF/views/layouts/header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/views/layouts/menu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/views/layouts/footer.jsp" />
+	</definition>
+	
+	<definition name="check" extends="main.definition">
+		<put-attribute name="title" value="Hello Spring MVC" />  
+        <put-attribute name="body" value="/WEB-INF/views/pages/contact.jspx" />
+	</definition>
+	
+	<definition name="success" extends="main.definition">
+		<put-attribute name="title" value="Success Page" />  
+        <put-attribute name="body" value="/WEB-INF/views/pages/success.jspx" />
+	</definition>
+	
+</tiles-definitions>

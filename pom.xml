@@ -9,10 +9,11 @@
 	<url>http://maven.apache.org</url>
 	<properties>
 		<spring.version>4.3.7.RELEASE</spring.version>
-	<hsqldb.version>2.3.2</hsqldb.version>
-	<dbh2.version>1.4.187</dbh2.version>
+		<hsqldb.version>2.3.2</hsqldb.version>
+		<dbh2.version>1.4.187</dbh2.version>
+		<tiles.version>2.2</tiles.version>
 	</properties>
-	
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -29,6 +30,19 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-jsp</artifactId>
+			<version>3.0.7</version>
+		</dependency>
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
