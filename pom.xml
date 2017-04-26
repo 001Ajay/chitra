@@ -12,6 +12,7 @@
 		<hsqldb.version>2.3.2</hsqldb.version>
 		<dbh2.version>1.4.187</dbh2.version>
 		<tiles.version>2.2</tiles.version>
+		<bootstrap.version>2.2.2</bootstrap.version>
 	</properties>
 
 	<dependencies>
@@ -69,6 +70,14 @@
 			<artifactId>h2</artifactId>
 			<version>${dbh2.version}</version>
 		</dependency>
+		
+		<!-- 
+		<dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>bootstrap</artifactId>
+            <version>${bootstrap.version}</version>
+        </dependency>
+         -->
 	</dependencies>
 	<build>
 		<finalName>chitra</finalName>

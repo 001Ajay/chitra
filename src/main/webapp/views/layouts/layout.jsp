@@ -7,9 +7,12 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		<title><tiles:insertAttribute name="title" ignore="true" /></title>
+		
+		<script type="text/javascript" src="../scripts/jquery-3.2.1.min.js"></script>
+		
 	</head>
 	<body>
-
+		
 		<div>
 			<tiles:insertAttribute name="header" />
 		</div>
